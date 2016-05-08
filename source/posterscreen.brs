@@ -899,7 +899,7 @@ Sub PosterScreenHandleInstagramMediaResponse(msg)
 	
 	json = msg.GetString()
 	parsedResponse = ParseJson(json)
-	if parsedResponse.meta.code = 200
+	if parsedResponse <> invalid AND parsedResponse.meta.code = 200
 	
 		if metaData <> invalid 
 		

@@ -33,7 +33,7 @@ Sub Main()
 	end if
 	
 	if globals.saverTest
-		RunScreenSaverSettings()
+		'RunScreenSaverSettings()
 		RunScreenSaver()
 	else if globals.saver2Test
 		RunReelSaver()

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--********** Copyright 2015 Roku Corp. All Rights Reserved. ********** -->
+<component
+   name="spearmintScene"
+   extends="Scene">
+
+   <script
+      type="text/brightscript"
+      uri="pkg:/components/spearmint.brs" />
+
+   <children>
+      <Group
+         id="thumbnailGroup"
+         width="124"
+         height="124">
+
+         <Poster
+            translation="[62,40]"
+            uri="https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c0.134.1080.1080/13129612_458716644318111_2076370044_n.jpg?ig_cache_key=MTI0MDgwMTc0Nzg1ODMwNzQwMg%3D%3D.2.c" />
+         <Poster
+            translation="[191,40]"
+            uri="https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/13129458_1022030661245161_422913745_n.jpg?ig_cache_key=MTI0MDc2MzMwNzUzNTc5NDY0Mg%3D%3D.2" />
+         <Poster translation="[965,40]" />
+         <Poster translation="[1094,40]" />
+         <Poster translation="[62,169]" />
+         <Poster translation="[191,169]" />
+         <Poster translation="[965,169]" />
+         <Poster translation="[1094,169]" />
+         <Poster translation="[62,298]" />
+         <Poster translation="[191,298]" />
+         <Poster translation="[965,298]" />
+         <Poster translation="[1094,298]" />
+         <Poster translation="[62,427]" />
+         <Poster translation="[191,427]" />
+         <Poster translation="[965,427]" />
+         <Poster translation="[1094,427]" />
+         <Poster translation="[62,556]" />
+         <Poster translation="[191,556]" />
+         <Poster translation="[965,556]" />
+         <Poster translation="[1094,556]" />
+      </Group>
+
+      <Poster
+         id="channelPoster"
+         width="640"
+         height="640"
+         uri="https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13129612_882296931879620_455130209_n.jpg?ig_cache_key=MTI0MDgwMTc0Nzg1ODMwNzQwMg%3D%3D.2.l"
+         translation="[320,40]" />
+      <!-- <Animation id="fadeinoutAnimation" duration="10" repeat="true" 
+         control="start" easeFunction="linear"> <FloatFieldInterpolator id="fadeinoutPoster" 
+         key="[0.0, 0.5, 1.0]" keyValue="[ 0.0, 1.0, 0.0 ]" fieldToInterp="channelPoster.opacity" 
+         /> </Animation> -->
+
+   </children>
+</component>
